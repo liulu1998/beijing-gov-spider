@@ -157,10 +157,6 @@ class GovSpider:
     #     # self.sess.cookies["_va_id"] = f"e79c8bab65f7135c.1637038114.1.{int(time.time())}.1637038114."
     #     # self.sess.cookies["_va_ses"] = "*"
     #     # self.sess.cookies["route"] = "74cee48a71a9ef78636a55b3fa493f67"
-    #     # r = self.sess.get(self.suggest_detail_api + f"?originalID={id_}", headers=self.headers)
-    #
-    #     r = self.sess.get(self.suggest_detail_api, params={"originalId": id_}, headers=self.headers)
-    #     print("复知春路" in r.text)
 
 
 if __name__ == '__main__':
